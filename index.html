@@ -1,23 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>E3 ESOL</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>E3 ESOL</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="https://www.thecollege.co.uk/sites/all/themes/at_bpc/favicon.ico" type="image/vnd.microsoft.icon">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #005399;
+  color: white;
+}
+
+
+
+
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #e2ecf7;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.eimg {
+  width: 100%;
+  padding: 5px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #005399;
+}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
 </head>
 <body>
-  
-<div class="container">
+
+
+
+<!-- Header -->
+<div class="header">
   <h1>E3 ESOL</h1>
-  <p>This is a webpage for E3 ESOL</p>   
-  <p>Below are the links to the lesessons</p>
-  <ul>
-    <li><a href="lesson1.html">Hello form Diane</a></li>
-  </ul>        
 </div>
+
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>Learning on line with</h2>
+    <h3>E3 ESOL</h3>
+    <img class="eimg" src="https://p1.pxfuel.com/preview/787/750/485/girl-young-student-sitting-table-books.jpg" style="height:auto%;">
+  <p>Hello! Welcome to our new site, where I will put news and information about the classes. This is a new way of learning and I am learning too!
+  </p>
+  <p>On this page are links to lessons, resources and quizes. I will send you a message when new material is added.</p>
+  <p>There is a link to the college web page below for upto date news and information from them</p>
+  <p> Best wishes from Diane</p>
+   
+  </div>
+  <div class="main">
+    <h2>Quiz</h2>
+
+    <p>This is a quiz about Britain. You’ll be able to see your score and how well other people in our class did! It’s just for fun :-) Good luck! </p>
+    <p>Click on the link any time before Monday evening’s lesson.</p>
+    <p> Here is a link to the  <a href="https://kahoot.it/challenge/01383002?challenge-id=f0ef8310-57ec-4526-8e77-f9fe90b13a1f_1587123714011">QUIZ</a></p>
+    <br>
+   
+    <h2>Monday 20th April</h2>
+
+    <p>Welcome back! The lesson tonight is about bad manners and how we behave - especially with our mobile phones.</p>
+    <p> Here is a link to the  <a href="lesson1.html">lesson</a></p>
+    <br>
+   
+    
+  </div>
+</div>
+<div class="footer">
+    <a href = "https://www.thecollege.co.uk/"><img src="https://www.thecollege.co.uk/sites/all/themes/at_bpc/logo.png"style="width:300px"></a>
+  </div>
+
 
 </body>
 </html>

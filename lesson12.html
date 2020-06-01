@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E3 ESOL</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://www.thecollege.co.uk/sites/all/themes/at_bpc/favicon.ico" type="image/vnd.microsoft.icon">
+  
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #005399;
+  color: white;
+}
+
+
+
+
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #e2ecf7;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.eimg {
+  width: 100%;
+  padding: 5px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #005399;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+</style>
+</head>
+<body>
+
+
+
+<!-- Header -->
+<div class="header">
+  <h1>E3 ESOL</h1>
+</div>
+
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>Wednesday 3rd June</h2>
+    
+    <img class="eimg" src="https://p0.pikrepo.com/preview/810/806/brown-wooden-house-near-swimming-pool-during-daytime.jpg" >
+  <p>This class is about where we live and our dream homes</p>
+ 
+
+   
+  </div>
+  <div class="main">
+    
+<p>You’ll be talking and writing about houses, flats and dream homes. 
+To prepare for class, go to page 72 and do exercises 4 a-c and 5 a-c. 
+Read question 7 on p73 and check vocabulary on p162, ready to talk about your dream home in class. 
+</p>
+<p>Writing: you’ll write a description of your house and flat. We’ll go through page 120 together, and you can plan the paragraphs for your writing. </p>
+   
+   
+    <p>See you then!</p>
+    <p>Click on this link at 6pm to join our 6pm Wednesday 3rd June class on <a href=" https://join.skype.com/fgv5y1rDpsZW">Skype </a><p>
+    
+    <br>
+
+    
+    <a href="index.html"><button class="btn info">Back to main page</button></a>
+
+ 
+
+  </div>
+
+</div>
+<div class="footer">
+    <a href = "https://www.thecollege.co.uk/"><img src="https://www.thecollege.co.uk/sites/all/themes/at_bpc/logo.png"style="width:300px"></a>
+  </div>
+
+
+</body>
+</html>

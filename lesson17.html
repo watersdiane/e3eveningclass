@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E3 ESOL</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://www.thecollege.co.uk/sites/all/themes/at_bpc/favicon.ico" type="image/vnd.microsoft.icon">
+  
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #005399;
+  color: white;
+}
+
+
+
+
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #e2ecf7;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.eimg {
+  width: 100%;
+  padding: 5px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #005399;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+</style>
+</head>
+<body>
+
+
+
+<!-- Header -->
+<div class="header">
+  <h1>E3 ESOL</h1>
+</div>
+
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>Monday 22nd June</h2>
+    
+    <img class="eimg" src="https://images.pexels.com/photos/4100843/pexels-photo-4100843.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=94" >
+  <p>Are you addicted to your phone? </p>
+ 
+
+   
+  </div>
+  <div class="main">
+    
+<p>In this class, you’ll learn useful technology vocabulary. To prepare for the lesson, read pages 90 and 91, do the exercises and check any new vocabulary.</p>
+
+    <p>Also, please revise future forms: present continuous, be going to, will / won’t on page 133. 
+    </p>
+   
+   
+    <p>See you then!</p>
+    <p>Click on this link at 6pm to join our 6pm Monday 22nd June class on <a href="https://join.skype.com/fgv5y1rDpsZW">Skype </a><p>
+    
+    <br>
+
+    
+    <a href="index.html"><button class="btn info">Back to main page</button></a>
+
+ 
+
+  </div>
+
+</div>
+<div class="footer">
+    <a href = "https://www.thecollege.co.uk/"><img src="https://www.thecollege.co.uk/sites/all/themes/at_bpc/logo.png"style="width:300px"></a>
+  </div>
+
+
+</body>
+</html>
